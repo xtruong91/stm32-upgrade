@@ -1,0 +1,1 @@
+We have several boards connected via CANBUS and based on STM32F4 series micrcontrollers. We need to upload firmware via CANBUS without disconnecting. Most of boarda are not easily accessible
