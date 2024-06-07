@@ -1,0 +1,14 @@
+../Core/Src/bootloader.c:22:6:Bootloader_Init	1
+../Core/Src/bootloader.c:34:9:btld_EraseFlash	4
+../Core/Src/bootloader.c:61:6:btld_FlashBegin	1
+../Core/Src/bootloader.c:70:9:btld_FlashNext_32	5
+../Core/Src/bootloader.c:102:9:btld_FlashNext	6
+../Core/Src/bootloader.c:132:6:btld_FlashEnd	1
+../Core/Src/bootloader.c:138:9:btld_ConfigProtection	4
+../Core/Src/bootloader.c:179:9:btld_CheckSize	3
+../Core/Src/bootloader.c:184:10:btld_GetBootChecksum	1
+../Core/Src/bootloader.c:195:10:btld_GetChecksum	1
+../Core/Src/bootloader.c:205:9:btld_SaveChecksum	1
+../Core/Src/bootloader.c:221:9:btld_CheckForApplication	1
+../Core/Src/bootloader.c:228:6:btld_JumpToApp	1
+../Core/Src/bootloader.c:251:6:btld_JumpToSysMem	1

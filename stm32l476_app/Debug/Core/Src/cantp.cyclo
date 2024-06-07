@@ -1,0 +1,8 @@
+../Core/Src/cantp.c:16:9:CanTxMsgCompare	2
+../Core/Src/cantp.c:27:6:CANTX_FIFO_init	2
+../Core/Src/cantp.c:45:6:CANTX_FIFO_clear	2
+../Core/Src/cantp.c:51:9:CANTX_FIFO_isin	5
+../Core/Src/cantp.c:82:9:CANTX_FIFO_push	4
+../Core/Src/cantp.c:107:9:CANTX_FIFO_intellipush	2
+../Core/Src/cantp.c:116:17:CANTX_FIFO_pull	3
+../Core/Src/cantp.c:138:6:CANTX_FIFO_INITIATE_TRANSMIT	3

@@ -1,0 +1,3 @@
+../Core/Src/can_app.c:29:6:CAN_SEND_1000ms	4	static
+../Core/Src/can_app.c:38:6:CAN_SEND_100ms	4	static
+../Core/Src/can_app.c:47:6:CAN_SEND_20ms	40	static

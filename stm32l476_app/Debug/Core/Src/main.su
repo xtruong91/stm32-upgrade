@@ -1,0 +1,15 @@
+../Core/Src/main.c:74:5:main	8	static
+../Core/Src/main.c:134:6:SystemClock_Config	96	static
+../Core/Src/main.c:179:13:MX_CAN1_Init	8	static
+../Core/Src/main.c:216:13:MX_CRC_Init	8	static
+../Core/Src/main.c:247:13:MX_TIM17_Init	8	static
+../Core/Src/main.c:279:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:335:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:428:6:HAL_CAN_ErrorCallback	24	static
+../Core/Src/main.c:457:6:HAL_CAN_TxMailbox0CompleteCallback	16	static
+../Core/Src/main.c:460:6:HAL_CAN_TxMailbox1CompleteCallback	16	static
+../Core/Src/main.c:463:6:HAL_CAN_TxMailbox2CompleteCallback	16	static
+../Core/Src/main.c:467:6:CAN_TX_Cplt	64	static
+../Core/Src/main.c:485:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static
+../Core/Src/main.c:497:6:config_can_filter	56	static
+../Core/Src/main.c:524:6:Error_Handler	4	static,ignoring_inline_asm
