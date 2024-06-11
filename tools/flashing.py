@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  2 09:49:19 2019
-
-@author: frainville
 
 library requirements
 pip install python-can
@@ -34,7 +31,7 @@ BOARD_NAME = 'APP'
 HEXPAD = 220
 
 # HEX file to load
-HEX_FILE = 'C:\\github\\stm32-can-bootloader\\APP\\Debug\\APP.hex'
+HEX_FILE = '..\\stm32l476_app\\debug\\stm32l476_app.hex'
 
 # CANID needs to be used with a OR with CAN_SA
 RX_HEARTBEAT_CANID = 0x00FF00 
@@ -379,7 +376,7 @@ def main():
     connTimer._interval = currentTimeout
     connTimer.cancel()
     connTimer.start()
-    WAIT_FLASH_ERASE_BIT=1;
+    WAIT_FLASH_ERASE_BIT=1
     can_send_cmd(0xF1)
     
     # Wait for confirmation flash erased or timeout

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar 13 07:26:47 2019
-
-@author: frainville
-
 library requirements
 python3 -m pip install intelhex
 python3 -m pip install crcmod
@@ -16,7 +12,7 @@ import os
 from intelhex import IntelHex
 import crcmod
 
-SOURCEFOLDER = "C:\\github\\stm32-can-bootloader\\APP\\Debug"
+SOURCEFOLDER = "./stm32l476_app/debug"
 
 HEX_file = ""
 HEX = ""

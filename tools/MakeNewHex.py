@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar 13 07:26:47 2019
-
-@author: frainville
-
 library requirements
 python3 -m pip install intelhex
 python3 -m pip install crcmod
@@ -18,7 +14,7 @@ import crcmod
 
 BTLD_PROJECT = "BOOT"
 APP_PROJECT = "APP"
-ProjectPath = 'C:\\github\\stm32-can-bootloader'
+ProjectPath = '../stm32_bootloader/debug'
 
 def clean_hex_from_folder(folder):
 
